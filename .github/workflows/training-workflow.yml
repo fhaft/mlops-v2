@@ -7,11 +7,11 @@ on:
       resource_group:
         description: 'Resource group name'
         required: true
-        default: 'rg-ydamlv12-yd202304dev'
+        default: 'AFT-ML-01'
       aml_workspace:
         description: 'AML workspace name'
         required: true
-        default: 'mlw-ydamlv12-yd202304dev'
+        default: 'mlw-fhamlv12-fh20230427dev'
       cluster_name:
         description: 'AML compute cluster name'
         required: true
