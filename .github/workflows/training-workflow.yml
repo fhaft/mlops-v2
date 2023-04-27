@@ -11,7 +11,7 @@ on:
       aml_workspace:
         description: 'AML workspace name'
         required: true
-        default: 'mlw-fhamlv2-fh2023dev'
+        default: 'AFT-ML-WS-01'
       cluster_name:
         description: 'AML compute cluster name'
         required: true
