@@ -19,7 +19,7 @@ on:
       environment_file:
         description: 'Environment file'
         required: true
-        default: 'mlops/azureml/train/train-env.yml'
+        default: './mlops/azureml/train/train-env.yml'
       node_sku:
         description: 'Node SKU'
         required: true

@@ -6,11 +6,11 @@ on:
       resource_group:
         description: 'Resource group name'
         required: true
-        default: 'rg-ydamlv12-yd202304dev'
+        default: 'AFT-ML-01'
       aml_workspace:
         description: 'AML workspace name'
         required: true
-        default: 'mlw-ydamlv12-yd202304dev'
+        default: 'AFT-ML-WS-01'
       deployment_file:
         description: 'Deployment file'
         required: true
